@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
         //receiving the assets from the app directory
         AssetManager assets = getResources().getAssets();
         File jayDir = new File(Environment.getExternalStorageDirectory().toString() + "/hari/bots/Hari");
+        System.out.println("ini rip" + Environment.getExternalStorageDirectory().toString());
         boolean b = jayDir.mkdirs();
         if (jayDir.exists()) {
             //Reading the file
