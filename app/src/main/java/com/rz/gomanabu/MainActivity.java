@@ -85,16 +85,16 @@ public class MainActivity extends AppCompatActivity {
         boolean a = isSDCARDAvailable();
         //receiving the assets from the app directory
         AssetManager assets = getResources().getAssets();
-        File jayDir = new File(Environment.getExternalStorageDirectory().toString() + "/hari/bots/Hari");
+        File jayDir = new File(getCacheDir().toString() + "/hari/bots/Hari");
         System.out.println("ini rip" + Environment.getExternalStorageDirectory().toString());
         boolean b = jayDir.mkdirs();
         if (jayDir.exists()) {
             //Reading the file
             try {
-                for (String dir : Objects.requireNonNull(assets.list("Hari"))) {
+                for (String dir : assets.list("Hari")) {
                     File subdir = new File(jayDir.getPath() + "/" + dir);
                     boolean subdir_check = subdir.mkdirs();
-                    for (String file : Objects.requireNonNull(assets.list("Hari/" + dir))) {
+                    for (String file : assets.list("Hari/" + dir)) {
                         File f = new File(jayDir.getPath() + "/" + dir + "/" + file);
                         if (f.exists()) {
                             continue;
@@ -117,14 +117,14 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         //get the working directory
-        MagicStrings.root_path = Environment.getExternalStorageDirectory().toString() + "/hari";
+        MagicStrings.root_path = getCacheDir().toString() + "/hari";
         System.out.println("Working Directory = " + MagicStrings.root_path);
         AIMLProcessor.extension =  new PCAIMLProcessorExtension();
         //Assign the AIML files to bot for processing
         bot = new Bot("Hari", MagicStrings.root_path, "chat");
         chat = new Chat(bot);
-        String[] args = null;
-        mainFunction(args);
+//        String[] args = null;
+//        mainFunction(args);
     }
 
     private void sendMessage(String message) {
