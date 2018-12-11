@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 
@@ -27,6 +28,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Objects;
 import java.util.Timer;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,23 +37,31 @@ public class MainActivity extends AppCompatActivity {
     public static Chat chat;
 
     private ListView mListView;
-    private FloatingActionButton mButtonSend;
     private EditText mEditTextMessage;
-    private ImageView mImageView;
+    private ImageButton mButtonSend;
+//    private ImageView mImageView;
     private ChatMessageAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mListView = (ListView) findViewById(R.id.listView);
-        mButtonSend = (FloatingActionButton) findViewById(R.id.btn_send);
-        mEditTextMessage = (EditText) findViewById(R.id.et_message);
-        mImageView = (ImageView) findViewById(R.id.iv_image);
+
+        wireView();
+        setSendButtonListener();
+        handleFileStream();
+    }
+
+    private void wireView(){
+        mListView = findViewById(R.id.listView);
+        mButtonSend = findViewById(R.id.btn_send);
+        mEditTextMessage = findViewById(R.id.et_message);
+//        mImageView = findViewById(R.id.iv_image);
         mAdapter = new ChatMessageAdapter(this, new ArrayList<ChatMessage>());
         mListView.setAdapter(mAdapter);
+    }
 
-//code for sending the message
+    private void setSendButtonListener(){
         mButtonSend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,24 +73,27 @@ public class MainActivity extends AppCompatActivity {
                 }
                 sendMessage(message);
                 mimicOtherMessage(response);
+
                 mEditTextMessage.setText("");
                 mListView.setSelection(mAdapter.getCount() - 1);
             }
         });
+    }
 
-        //checking SD card availablility
+    private void handleFileStream(){
+        //checking SD card availability
         boolean a = isSDCARDAvailable();
-//receiving the assets from the app directory
+        //receiving the assets from the app directory
         AssetManager assets = getResources().getAssets();
         File jayDir = new File(Environment.getExternalStorageDirectory().toString() + "/hari/bots/Hari");
         boolean b = jayDir.mkdirs();
         if (jayDir.exists()) {
             //Reading the file
             try {
-                for (String dir : assets.list("Hari")) {
+                for (String dir : Objects.requireNonNull(assets.list("Hari"))) {
                     File subdir = new File(jayDir.getPath() + "/" + dir);
                     boolean subdir_check = subdir.mkdirs();
-                    for (String file : assets.list("Hari/" + dir)) {
+                    for (String file : Objects.requireNonNull(assets.list("Hari/" + dir))) {
                         File f = new File(jayDir.getPath() + "/" + dir + "/" + file);
                         if (f.exists()) {
                             continue;
@@ -102,11 +115,11 @@ public class MainActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
         }
-//get the working directory
+        //get the working directory
         MagicStrings.root_path = Environment.getExternalStorageDirectory().toString() + "/hari";
         System.out.println("Working Directory = " + MagicStrings.root_path);
         AIMLProcessor.extension =  new PCAIMLProcessorExtension();
-//Assign the AIML files to bot for processing
+        //Assign the AIML files to bot for processing
         bot = new Bot("Hari", MagicStrings.root_path, "chat");
         chat = new Chat(bot);
         String[] args = null;
@@ -117,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
         ChatMessage chatMessage = new ChatMessage(message, true, false);
         mAdapter.add(chatMessage);
         //respond as Helloworld
-        mimicOtherMessage("HelloWorld");
+//        mimicOtherMessage("HelloWorld");
     }
 
     private void mimicOtherMessage(String message) {
@@ -139,8 +152,9 @@ public class MainActivity extends AppCompatActivity {
 
     //check SD card availability
     public static boolean isSDCARDAvailable(){
-        return Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)? true :false;
+        return Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED);
     }
+
     //copying the file
     private void copyFile(InputStream in, OutputStream out) throws IOException {
         byte[] buffer = new byte[1024];
@@ -149,6 +163,7 @@ public class MainActivity extends AppCompatActivity {
             out.write(buffer, 0, read);
         }
     }
+
     //Request and response of user and the bot
     public static void mainFunction (String[] args) {
         MagicBooleans.trace_mode = false;
