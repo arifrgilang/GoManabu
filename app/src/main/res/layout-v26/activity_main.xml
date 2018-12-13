@@ -35,7 +35,7 @@
             android:textColor="#FFFFFF"
             android:autofillHints="Input chat" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btn_send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
