@@ -1,0 +1,5 @@
+0,MANABU QUIZ,*,*,<random><li><set name = "topic">ア</set></li><li><set name = "topic">イ</set></li></random>,manabukana.aiml
+0,*,*,ア,Belum tepat! Yang benar adalah: A,manabuquiz.aiml
+0,A,*,ア,Tepat! ア = A ,manabuquiz.aiml
+0,*,*,イ,Belum tepat! Yang benar adalah: I,manabuquiz.aiml
+0,I,*,イ,Tepat! イ = I ,manabuquiz.aiml
