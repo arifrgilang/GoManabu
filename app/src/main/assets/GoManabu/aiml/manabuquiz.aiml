@@ -4,34 +4,31 @@
       <pattern> MANABU QUIZ </pattern>
       <template>
          <random>
-            <li><set name = "topic">ア</set></li>
-            <li><set name = "topic">イ</set></li>
+            <li>Ubah ke romaji ありがとう</li>
+            <li>Ubah ke romaji おはようございます</li>
          </random>
       </template>  
    </category>
 
-   <topic name = "ア">
       <category>
          <pattern> * </pattern>
-         <template> Belum tepat! Yang benar adalah: A </template>
+         <that>Ubah ke romaji ありがとう</that>
+         <template> Belum tepat! Yang benar adalah: arigatou (Terima Kasih) </template>
       </category>
-      
       <category>
-         <pattern> A </pattern>
-         <template> Tepat! ア = A </template>
+         <pattern>ARIGATOU</pattern>
+         <that>Ubah ke romaji ありがとう</that>
+         <template> Tepat! ありがとう = arigatou (Terima Kasih)</template>
       </category>
-   </topic>
-   
-   <topic name = "イ">
+
       <category>
          <pattern> * </pattern>
-         <template> Belum tepat! Yang benar adalah: I </template>
+         <that>Ubah ke romaji おはようございます</that>
+         <template> Belum tepat! Yang benar adalah: Ohayougozaimasu (Selamat Pagi) </template>
       </category>
-      
       <category>
-         <pattern> I </pattern>
-         <template> Tepat! イ = I </template>
-      </category>   
-   </topic>
-   
+         <pattern>OHAYOUGOZAIMASU</pattern>
+         <that>Ubah ke romaji おはようございます</that>
+         <template> Tepat! おはようございます = Ohayougozaimasu (Selamat Pagi) </template>
+      </category>
 </aiml>

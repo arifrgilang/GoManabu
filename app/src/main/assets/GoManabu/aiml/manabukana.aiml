@@ -4,278 +4,256 @@
       <pattern> MANABU KANA </pattern>
       <template>
          <random>
-            <li><set name = "topic">あ</set></li>
-            <li><set name = "topic">い</set></li>
-            <li><set name = "topic">う</set></li>
-            <li><set name = "topic">え</set></li>
-            <li><set name = "topic">お</set></li>
-            
-            <li><set name = "topic">か</set></li>
-            <li><set name = "topic">き</set></li>
-            <li><set name = "topic">く</set></li>
-            <li><set name = "topic">け</set></li>
-            <li><set name = "topic">こ</set></li>
+            <li>あ</li>
+            <li>い</li>
+            <li>う</li>
+            <li>え</li>
+            <li>お</li>
 
-            <li><set name = "topic">さ</set></li>
-            <li><set name = "topic">し</set></li>
-            <li><set name = "topic">す</set></li>
-            <li><set name = "topic">せ</set></li>
-            <li><set name = "topic">そ</set></li>
+            <li>か</li>
+            <li>き</li>
+            <li>く</li>
+            <li>け</li>
+            <li>こ</li>
 
-            <li><set name = "topic">た</set></li>
-            <li><set name = "topic">ち</set></li>
-            <li><set name = "topic">つ</set></li>
-            <li><set name = "topic">て</set></li>
-            <li><set name = "topic">と</set></li>
+            <li>さ</li>
+            <li>し</li>
+            <li>す</li>
+            <li>せ</li>
+            <li>そ</li>
 
-            
+            <li>た</li>
+            <li>ち</li>
+            <li>つ</li>
+            <li>て</li>
+            <li>と</li>
          </random>
       </template>  
    </category>
 
 <!-- AIUEO -->
-   <topic name = "あ">
-      <category>
-         <pattern> * </pattern>
-         <template> Belum tepat! Yang benar adalah: A </template>
-      </category>
-      
-      <category>
-         <pattern> A </pattern>
-         <template> Tepat! あ = A </template>
-      </category>
-   </topic>
-   
-   <topic name = "い">
-      <category>
-         <pattern> * </pattern>
-         <template> Belum tepat! Yang benar adalah: I </template>
-      </category>
-      
-      <category>
-         <pattern> I </pattern>
-         <template> Tepat! い = I </template>
-      </category>   
-   </topic>
-   
-   <topic name = "う">
-      <category>
-         <pattern> * </pattern>
-         <template> Belum tepat! Yang benar adalah: U </template>
-      </category>
-      
-      <category>
-         <pattern> U </pattern>
-         <template> Tepat! う = U </template>
-      </category>   
-   </topic>
+   <category>
+      <pattern> * </pattern>
+      <that>あ</that>
+      <template> Belum tepat! Yang benar adalah: A </template>
+   </category>
+   <category>
+      <pattern> A </pattern>
+      <that>あ</that>
+      <template> Tepat! あ = A </template>
+   </category>
 
-   <topic name = "え">
-      <category>
-         <pattern> * </pattern>
-         <template> Belum tepat! Yang benar adalah: E </template>
-      </category>
-      
-      <category>
-         <pattern> E </pattern>
-         <template> Tepat! え = E </template>
-      </category>   
-   </topic>
-   
-   <topic name = "お">
-      <category>
-         <pattern> * </pattern>
-         <template> Belum tepat! Yang benar adalah: O </template>
-      </category>
-      
-      <category>
-         <pattern> O </pattern>
-         <template> Tepat! お = O </template>
-      </category>   
-   </topic>
+   <category>
+      <pattern> * </pattern>
+      <that>い</that>
+      <template> Belum tepat! Yang benar adalah: I </template>
+   </category>
+   <category>
+      <pattern> I </pattern>
+      <that>い</that>
+      <template> Tepat! い = I </template>
+   </category>
+
+   <category>
+      <pattern> * </pattern>
+      <that>う</that>
+      <template> Belum tepat! Yang benar adalah: U </template>
+   </category>
+   <category>
+      <pattern> U </pattern>
+      <that>う</that>
+      <template> Tepat! う = U </template>
+   </category>
+
+   <category>
+      <pattern> * </pattern>
+      <that>え</that>
+   <template> Belum tepat! Yang benar adalah: E </template>
+   </category>
+   <category>
+      <pattern> E </pattern>
+      <that>え</that>
+      <template> Tepat! え = E </template>
+   </category>
+
+   <category>
+      <pattern> * </pattern>
+      <that>お</that>
+      <template> Belum tepat! Yang benar adalah: O </template>
+   </category>
+   <category>
+      <pattern> O </pattern>
+      <that>お</that>
+      <template> Tepat! お = O </template>
+   </category>
 
 <!-- KAKIKUKEKO -->
-   <topic name = "か">
       <category>
          <pattern> * </pattern>
+         <that>か</that>
          <template> Belum tepat! Yang benar adalah: KA </template>
       </category>
-      
       <category>
          <pattern> KA </pattern>
+         <that>か</that>
          <template> Tepat! か = KA </template>
       </category>   
-   </topic>
 
-   <topic name = "き">
       <category>
          <pattern> * </pattern>
+         <that>き</that>
          <template> Belum tepat! Yang benar adalah: KI </template>
       </category>
-      
       <category>
          <pattern> KI </pattern>
+         <that>き</that>
          <template> Tepat! き = KI </template>
-      </category>   
-   </topic>
+      </category>
 
-   <topic name = "く">
       <category>
          <pattern> * </pattern>
+         <that>く</that>
          <template> Belum tepat! Yang benar adalah: KU </template>
       </category>
-      
       <category>
          <pattern> KU </pattern>
+         <that>く</that>
          <template> Tepat! く = KU </template>
-      </category>   
-   </topic>
+      </category>
 
-   <topic name = "け">
       <category>
          <pattern> * </pattern>
+         <that>け</that>
          <template> Belum tepat! Yang benar adalah: KE </template>
       </category>
-      
       <category>
          <pattern> KE </pattern>
+         <that>け</that>
          <template> Tepat! け = KE </template>
-      </category>   
-   </topic>
+      </category>
 
-   <topic name = "こ">
       <category>
          <pattern> * </pattern>
+         <that>こ</that>
          <template> Belum tepat! Yang benar adalah: KO </template>
       </category>
-      
       <category>
          <pattern> KO </pattern>
+         <that>こ</that>
          <template> Tepat! こ = KO </template>
-      </category>   
-   </topic>
+      </category>
 
 <!-- SASHISUSESO -->
-   <topic name = "さ">
       <category>
          <pattern> * </pattern>
+         <that>さ</that>
          <template> Belum tepat! Yang benar adalah: SA </template>
       </category>
-      
       <category>
          <pattern> SA </pattern>
+         <that>さ</that>
          <template> Tepat! さ = SA </template>
-      </category>   
-   </topic>
+      </category>
 
-   <topic name = "し">
       <category>
          <pattern> * </pattern>
+         <that>し</that>
          <template> Belum tepat! Yang benar adalah: SHI </template>
       </category>
-      
       <category>
          <pattern> SHI </pattern>
+         <that>し</that>
          <template> Tepat! し = SHI </template>
-      </category>   
-   </topic>
+      </category>
 
-   <topic name = "す">
       <category>
          <pattern> * </pattern>
+         <that>す</that>
          <template> Belum tepat! Yang benar adalah: SU </template>
       </category>
-      
       <category>
          <pattern> SU </pattern>
+         <that>す</that>
          <template> Tepat! す = SU </template>
-      </category>   
-   </topic>
+      </category>
 
-   <topic name = "せ">
       <category>
          <pattern> * </pattern>
+         <that>せ</that>
          <template> Belum tepat! Yang benar adalah: SE </template>
       </category>
-      
       <category>
          <pattern> SE </pattern>
+         <that>せ</that>
          <template> Tepat! せ = SE </template>
-      </category>   
-   </topic>
+      </category>
 
-   <topic name = "そ">
       <category>
          <pattern> * </pattern>
+         <that>そ</that>
          <template> Belum tepat! Yang benar adalah: SO </template>
       </category>
-      
       <category>
          <pattern> SO </pattern>
+         <that>そ</that>
          <template> Tepat! そ = SO </template>
-      </category>   
-   </topic>
+      </category>
 
 <!-- TACHITSUTETO -->
-   <topic name = "た">
       <category>
          <pattern> * </pattern>
+         <that>た</that>
          <template> Belum tepat! Yang benar adalah: TA </template>
       </category>
-      
       <category>
          <pattern> TA </pattern>
+         <that>た</that>
          <template> Tepat! た = TA </template>
-      </category>   
-   </topic>
+      </category>
 
-   <topic name = "ち">
       <category>
          <pattern> * </pattern>
+         <that>ち</that>
          <template> Belum tepat! Yang benar adalah: CHI </template>
       </category>
-      
       <category>
          <pattern> CHI </pattern>
+         <that>ち</that>
          <template> Tepat! ち = CHI </template>
       </category>   
-   </topic>
 
-   <topic name = "つ">
       <category>
          <pattern> * </pattern>
+         <that>つ</that>
          <template> Belum tepat! Yang benar adalah: TSU </template>
       </category>
-      
       <category>
          <pattern> TSU </pattern>
+         <that>つ</that>
          <template> Tepat! つ = TSU </template>
       </category>   
-   </topic>
 
-   <topic name = "て">
       <category>
          <pattern> * </pattern>
+         <that>て</that>
          <template> Belum tepat! Yang benar adalah: TE </template>
       </category>
-      
       <category>
          <pattern> TE </pattern>
+         <that>て</that>
          <template> Tepat! て = TE </template>
       </category>   
-   </topic>
 
-   <topic name = "と">
       <category>
          <pattern> * </pattern>
+         <that>と</that>
          <template> Belum tepat! Yang benar adalah: TO </template>
       </category>
-      
       <category>
          <pattern> TO </pattern>
+         <that>と</that>
          <template> Tepat! と = TO </template>
-      </category>   
-   </topic>
+      </category>
 
 <!-- NANINUNENO -->
 </aiml>
