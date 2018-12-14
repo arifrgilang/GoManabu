@@ -14,7 +14,7 @@
         app:cmv_arrowPosition="left"
         app:cmv_backgroundColor="@color/colorPrimary"
         app:cmv_backgroundColorPressed="@color/colorPrimaryDark"
-        app:cmv_cornerRadius="3dp"
+        app:cmv_cornerRadius="5dp"
         app:cmv_showArrow="true">
 
         <TextView
@@ -24,6 +24,7 @@
             android:text="@string/helloworld"
             android:textColor="#FFFFFF"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
     </me.himanshusoni.chatmessageview.ChatMessageView>
 
 </LinearLayout>

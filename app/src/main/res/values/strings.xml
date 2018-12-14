@@ -3,4 +3,12 @@
     <string name="send">Send</string>
     <string name="hello">Hello</string>
     <string name="helloworld">Helloworld</string>
+    <string name="halo">Halo!</string>
+    <string name="init_message">
+        Go! Manabu adalah Chatbot untuk belajar huruf-huruf jepang secara interaktif.
+        Untuk detail lebih lanjut gunakan keyword: help
+    </string>
+    <string name="lanjut">
+        Untuk mengetahui keyword lainnya gunakan: help
+    </string>
 </resources>

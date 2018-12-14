@@ -50,6 +50,10 @@ public class MainActivity extends AppCompatActivity {
         setSendButtonListener();
         handleFileStream();
         generateBot();
+
+        mimicOtherMessage(getString(R.string.halo));
+        mimicOtherMessage(getString(R.string.init_message));
+        mimicOtherMessage(getString(R.string.lanjut));
     }
 
     private void wireView(){
@@ -133,17 +137,17 @@ public class MainActivity extends AppCompatActivity {
         mAdapter.add(chatMessage);
     }
 
-    private void sendMessage() {
-        ChatMessage chatMessage = new ChatMessage(null, true, true);
-        mAdapter.add(chatMessage);
-
-        mimicOtherMessage();
-    }
-
-    private void mimicOtherMessage() {
-        ChatMessage chatMessage = new ChatMessage(null, false, true);
-        mAdapter.add(chatMessage);
-    }
+//    private void sendMessage() {
+//        ChatMessage chatMessage = new ChatMessage(null, true, true);
+//        mAdapter.add(chatMessage);
+//
+//        mimicOtherMessage();
+//    }
+//
+//    private void mimicOtherMessage() {
+//        ChatMessage chatMessage = new ChatMessage(null, false, true);
+//        mAdapter.add(chatMessage);
+//    }
 
     //copying the file
     private void copyFile(InputStream in, OutputStream out) throws IOException {
