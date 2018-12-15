@@ -11,4 +11,9 @@
     <string name="lanjut">
         Untuk mengetahui keyword lainnya gunakan: help
     </string>
+    <string name="manabu_quiz">Manabu quiz</string>
+    <string name="manabu_kana">Manabu kana</string>
+    <string name="kanji">Kanji</string>
+    <string name="help">Help</string>
+    <string name="go_manabu">Go Manabu</string>
 </resources>

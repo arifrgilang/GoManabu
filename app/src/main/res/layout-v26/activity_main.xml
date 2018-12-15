@@ -2,6 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -12,9 +13,85 @@
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/send_message_layout"
+        android:layout_above="@+id/quick_fill_button"
         android:divider="@null" />
     <!--To type and send the message-->
+    <LinearLayout
+        android:id="@+id/quick_fill_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/send_message_layout"
+        android:orientation="horizontal">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            fancy:fb_text="@string/kanji"
+            fancy:fb_borderColor="@color/colorPrimary"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_radius="30dp"
+            fancy:fb_defaultColor="#FFFFFF"
+            fancy:fb_focusColor="@color/colorPrimaryDark"
+            fancy:fb_textColor="@color/colorPrimary"/>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:padding="8dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            fancy:fb_text="@string/manabu_quiz"
+            fancy:fb_borderColor="@color/colorPrimary"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_radius="30dp"
+            fancy:fb_defaultColor="#FFFFFF"
+            fancy:fb_focusColor="@color/colorPrimaryDark"
+            fancy:fb_textColor="@color/colorPrimary"/>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:padding="8dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            fancy:fb_text="@string/manabu_kana"
+            fancy:fb_borderColor="@color/colorPrimary"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_radius="30dp"
+            fancy:fb_defaultColor="#FFFFFF"
+            fancy:fb_focusColor="@color/colorPrimaryDark"
+            fancy:fb_textColor="@color/colorPrimary"/>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            fancy:fb_text="@string/help"
+            fancy:fb_borderColor="@color/colorPrimary"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_radius="30dp"
+            fancy:fb_defaultColor="#FFFFFF"
+            fancy:fb_focusColor="@color/colorPrimaryDark"
+            fancy:fb_textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
     <LinearLayout
         android:id="@+id/send_message_layout"
         android:layout_width="match_parent"
@@ -31,9 +108,8 @@
             android:layout_marginRight="4dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:inputType="text"
             android:textColor="#FFFFFF"
-            android:autofillHints="Input chat" />
+            android:inputType="text" />
 
         <ImageButton
             android:id="@+id/btn_send"

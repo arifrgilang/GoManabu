@@ -1,5 +1,6 @@
 package com.rz.gomanabu;
 
+import android.app.ActionBar;
 import android.content.res.AssetManager;
 import android.os.Environment;
 import android.support.design.widget.FloatingActionButton;
@@ -45,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setCustomView(R.layout.actionbar);
 
         wireView();
         setSendButtonListener();
