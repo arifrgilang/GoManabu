@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.rz.gomanabu.model.ChatMessage;
 
@@ -32,7 +33,9 @@ import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Timer;
 
-public class MainActivity extends AppCompatActivity {
+import mehdi.sakout.fancybuttons.FancyButton;
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     public Bot bot;
     public static Chat chat;
@@ -41,6 +44,12 @@ public class MainActivity extends AppCompatActivity {
     private EditText mEditTextMessage;
     private ImageButton mButtonSend;
     private ChatMessageAdapter mAdapter;
+
+    private FancyButton mHelpButton;
+    private FancyButton mKanjiButton;
+    private FancyButton mManabuQuizButton;
+    private FancyButton mManabuKanaButton;
+    private FancyButton mCreditButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +74,18 @@ public class MainActivity extends AppCompatActivity {
         mListView = findViewById(R.id.listView);
         mButtonSend = findViewById(R.id.btn_send);
         mEditTextMessage = findViewById(R.id.et_message);
+
+        mHelpButton = findViewById(R.id.button_help);
+        mManabuKanaButton = findViewById(R.id.button_manabu_kana);
+        mManabuQuizButton = findViewById(R.id.button_manabu_quiz);
+        mCreditButton = findViewById(R.id.button_credit);
+        mKanjiButton = findViewById(R.id.button_kanji);
+
+        mHelpButton.setOnClickListener(this);
+        mManabuKanaButton.setOnClickListener(this);
+        mManabuQuizButton.setOnClickListener(this);
+        mCreditButton.setOnClickListener(this);
+        mKanjiButton.setOnClickListener(this);
 
         mAdapter = new ChatMessageAdapter(this, new ArrayList<ChatMessage>());
         mListView.setAdapter(mAdapter);
@@ -163,4 +184,34 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onClick(View v) {
+        switch(v.getId()){
+            case R.id.button_help:
+                setupButton(R.string.help);
+                mButtonSend.performClick();
+                break;
+            case R.id.button_kanji:
+                setupButton(R.string.kanjistring);
+                break;
+            case R.id.button_manabu_quiz:
+                setupButton(R.string.manabu_quiz);
+                mButtonSend.performClick();
+                break;
+            case R.id.button_manabu_kana:
+                setupButton(R.string.manabu_kana);
+                mButtonSend.performClick();
+                break;
+            case R.id.button_credit:
+                setupButton(R.string.credit);
+                mButtonSend.performClick();
+            default:
+                break;
+        }
+    }
+
+    private void setupButton(int id){
+        mEditTextMessage.setText(getString(id), TextView.BufferType.EDITABLE);
+        mEditTextMessage.setSelection(mEditTextMessage.getText().length());
+    }
 }
