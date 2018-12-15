@@ -1,0 +1,3 @@
+0,HELP,*,*,(Help: untuk bantuan perintah)(Kanji [input]: Untuk mencari detail Kanji)(Manabu quiz: Untuk quiz random 1 kata)(Manabu kana: Untuk quiz 1 kana acak)(Credit: Untuk melihat credit),help.aiml
+0,CREDIT,*,*,Team creator Go! Manabu: Arif Rhizky Gilang Purnama (140810170030) - Fahmi Izzuddin Abdurrahman (140810170062),help.aiml
+0,*,*,*,<random><li>Perintah tidak ditemukan</li><li>Perintah salah</li><li>Apakah perintah yang anda ketik sudah benar?</li></random>,help.aiml

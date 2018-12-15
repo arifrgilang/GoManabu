@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml>
+   <category>
+      <pattern> HELP </pattern>
+      <template>
+        (Help: untuk bantuan perintah)(Kanji [input]: Untuk mencari detail Kanji)(Manabu quiz: Untuk quiz random 1 kata)(Manabu kana: Untuk quiz 1 kana acak)(Credit: Untuk melihat credit)
+      </template>
+   </category>
+
+   <category>
+         <pattern> CREDIT </pattern>
+         <template>
+           Team creator Go! Manabu: Arif Rhizky Gilang Purnama (140810170030) - Fahmi Izzuddin Abdurrahman (140810170062)
+         </template>
+   </category>
+
+   <category>
+   <pattern> * </pattern>
+   <template>
+       <random>
+          <li>Perintah tidak ditemukan</li>
+          <li>Perintah salah</li>
+          <li>Apakah perintah yang anda ketik sudah benar?</li>
+       </random>
+   </template>
+   </category>
+</aiml>
