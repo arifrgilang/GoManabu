@@ -13,8 +13,9 @@
     </string>
     <string name="manabu_quiz">Manabu quiz</string>
     <string name="manabu_kana">Manabu kana</string>
-    <string name="kanji">Kanji</string>
+    <string name="kanji">Kanji (input)</string>
     <string name="help">Help</string>
     <string name="go_manabu">Go Manabu</string>
     <string name="start_command">Start Command!</string>
+    <string name="credit">Credit</string>
 </resources>

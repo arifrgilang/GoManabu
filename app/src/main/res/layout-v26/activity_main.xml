@@ -16,82 +16,120 @@
         android:layout_above="@+id/quick_fill_button"
         android:divider="@null" />
     <!--To type and send the message-->
-    <LinearLayout
+    <HorizontalScrollView
         android:id="@+id/quick_fill_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/send_message_layout"
-        android:orientation="horizontal">
-
-        <mehdi.sakout.fancybuttons.FancyButton
-            android:layout_width="0dp"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:padding="8dp"
-            android:layout_marginStart="2dp"
-            android:layout_marginEnd="2dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            fancy:fb_text="@string/kanji"
-            fancy:fb_borderColor="@color/colorPrimary"
-            fancy:fb_borderWidth="2dp"
-            fancy:fb_radius="30dp"
-            fancy:fb_defaultColor="#FFFFFF"
-            fancy:fb_focusColor="@color/colorPrimaryDark"
-            fancy:fb_textColor="@color/colorPrimary"/>
+            android:orientation="horizontal">
 
-        <mehdi.sakout.fancybuttons.FancyButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:padding="8dp"
-            android:layout_marginStart="2dp"
-            android:layout_marginEnd="2dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            fancy:fb_text="@string/manabu_quiz"
-            fancy:fb_borderColor="@color/colorPrimary"
-            fancy:fb_borderWidth="2dp"
-            fancy:fb_radius="30dp"
-            fancy:fb_defaultColor="#FFFFFF"
-            fancy:fb_focusColor="@color/colorPrimaryDark"
-            fancy:fb_textColor="@color/colorPrimary"/>
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/button_help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                fancy:fb_text="@string/help"
+                fancy:fb_borderColor="@color/colorPrimary"
+                fancy:fb_borderWidth="2dp"
+                fancy:fb_radius="30dp"
+                fancy:fb_defaultColor="#FFFFFF"
+                fancy:fb_focusColor="@color/colorPrimaryDark"
+                fancy:fb_textColor="@color/colorPrimary"/>
 
-        <mehdi.sakout.fancybuttons.FancyButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:padding="8dp"
-            android:layout_marginStart="2dp"
-            android:layout_marginEnd="2dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            fancy:fb_text="@string/manabu_kana"
-            fancy:fb_borderColor="@color/colorPrimary"
-            fancy:fb_borderWidth="2dp"
-            fancy:fb_radius="30dp"
-            fancy:fb_defaultColor="#FFFFFF"
-            fancy:fb_focusColor="@color/colorPrimaryDark"
-            fancy:fb_textColor="@color/colorPrimary"/>
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/button_kanji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                fancy:fb_text="@string/kanji"
+                fancy:fb_borderColor="@color/colorPrimary"
+                fancy:fb_borderWidth="2dp"
+                fancy:fb_radius="30dp"
+                fancy:fb_defaultColor="#FFFFFF"
+                fancy:fb_focusColor="@color/colorPrimaryDark"
+                fancy:fb_textColor="@color/colorPrimary"/>
 
-        <mehdi.sakout.fancybuttons.FancyButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:padding="8dp"
-            android:layout_marginStart="2dp"
-            android:layout_marginEnd="2dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            fancy:fb_text="@string/help"
-            fancy:fb_borderColor="@color/colorPrimary"
-            fancy:fb_borderWidth="2dp"
-            fancy:fb_radius="30dp"
-            fancy:fb_defaultColor="#FFFFFF"
-            fancy:fb_focusColor="@color/colorPrimaryDark"
-            fancy:fb_textColor="@color/colorPrimary"/>
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/button_manabu_quiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                fancy:fb_text="@string/manabu_quiz"
+                fancy:fb_borderColor="@color/colorPrimary"
+                fancy:fb_borderWidth="2dp"
+                fancy:fb_radius="30dp"
+                fancy:fb_defaultColor="#FFFFFF"
+                fancy:fb_focusColor="@color/colorPrimaryDark"
+                fancy:fb_textColor="@color/colorPrimary"/>
 
-    </LinearLayout>
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/manabu_kana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                fancy:fb_text="@string/manabu_kana"
+                fancy:fb_borderColor="@color/colorPrimary"
+                fancy:fb_borderWidth="2dp"
+                fancy:fb_radius="30dp"
+                fancy:fb_defaultColor="#FFFFFF"
+                fancy:fb_focusColor="@color/colorPrimaryDark"
+                fancy:fb_textColor="@color/colorPrimary"/>
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/button_credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                fancy:fb_text="@string/credit"
+                fancy:fb_borderColor="@color/colorPrimary"
+                fancy:fb_borderWidth="2dp"
+                fancy:fb_radius="30dp"
+                fancy:fb_defaultColor="#FFFFFF"
+                fancy:fb_focusColor="@color/colorPrimaryDark"
+                fancy:fb_textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
     <LinearLayout
         android:id="@+id/send_message_layout"
         android:layout_width="match_parent"
