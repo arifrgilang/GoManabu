@@ -1,4 +1,4 @@
-0,MANABU KANA,*,*,<random><li>あ</li><li>い</li><li>う</li><li>え</li><li>お</li><li>か</li><li>き</li><li>く</li><li>け</li><li>こ</li><li>さ</li><li>し</li><li>す</li><li>せ</li><li>そ</li><li>た</li><li>ち</li><li>つ</li><li>て</li><li>と</li></random>,manabukana.aiml
+0,MANABU KANA,*,*,<random><li>あ</li><li>い</li><li>う</li><li>え</li><li>お</li><li>か</li><li>き</li><li>く</li><li>け</li><li>こ</li><li>さ</li><li>し</li><li>す</li><li>せ</li><li>そ</li><li>た</li><li>ち</li><li>つ</li><li>て</li><li>と</li><li>な</li><li>に</li><li>ぬ</li><li>ね</li><li>の</li><li>は</li><li>ひ</li><li>ふ</li><li>へ</li><li>ほ</li><li>ま</li><li>み</li><li>む</li><li>め</li><li>も</li><li>ら</li><li>り</li><li>る</li><li>れ</li><li>ろ</li><li>や</li><li>ゆ</li><li>よ</li><li>わ</li><li>ん</li><li>が</li><li>ぎ</li><li>ぐ</li><li>げ</li><li>ご</li><li>ざ</li><li>じ</li><li>ず</li><li>ぜ</li><li>ぞ</li><li>だ</li><li>ぢ</li><li>づ</li><li>で</li><li>ど</li><li>ば</li><li>び</li><li>ぶ</li><li>べ</li><li>ぼ</li><li>ぱ</li><li>ぴ</li><li>ぷ</li><li>ぺ</li><li>ぽ</li>ー</random>,manabukana.aiml
 0,*,あ,*,Belum tepat! Yang benar adalah: A,manabukana.aiml
 0,A,あ,*,Tepat! あ = A ,manabukana.aiml
 0,*,い,*,Belum tepat! Yang benar adalah: I,manabukana.aiml
@@ -19,3 +19,113 @@
 0,KE,け,*,Tepat! け = KE ,manabukana.aiml
 0,*,こ,*,Belum tepat! Yang benar adalah: KO,manabukana.aiml
 0,KO,こ,*,Tepat! こ = KO ,manabukana.aiml
+0,*,さ,*,Belum tepat! Yang benar adalah: SA,manabukana.aiml
+0,SA,さ,*,Tepat! さ = SA ,manabukana.aiml
+0,*,し,*,Belum tepat! Yang benar adalah: SHI,manabukana.aiml
+0,SHI,し,*,Tepat! し = SHI ,manabukana.aiml
+0,*,す,*,Belum tepat! Yang benar adalah: SU,manabukana.aiml
+0,SU,す,*,Tepat! す = SU,manabukana.aiml
+0,*,せ,*,Belum tepat! Yang benar adalah: SE,manabukana.aiml
+0,SE,せ,*,Tepat! せ = SE ,manabukana.aiml
+0,*,そ,*,Belum tepat! Yang benar adalah: SO,manabukana.aiml
+0,SO,そ,*,Tepat! そ = SO ,manabukana.aiml
+0,*,た,*,Belum tepat! Yang benar adalah: TA,manabukana.aiml
+0,TA,た,*,Tepat! た = TA ,manabukana.aiml
+0,*,ち,*,Belum tepat! Yang benar adalah: CHI,manabukana.aiml
+0,CHI,ち,*,Tepat! ち = CHI ,manabukana.aiml
+0,*,つ,*,Belum tepat! Yang benar adalah: TSU,manabukana.aiml
+0,TSU,つ,*,Tepat! つ = TSU ,manabukana.aiml
+0,*,て,*,Belum tepat! Yang benar adalah: TE,manabukana.aiml
+0,TE,て,*,Tepat! て = TE ,manabukana.aiml
+0,*,と,*,Belum tepat! Yang benar adalah: TO,manabukana.aiml
+0,TO,と,*,Tepat! と = TO ,manabukana.aiml
+0,*,な,*,Belum tepat! Yang benar adalah: NA,manabukana.aiml
+0,NA,な,*,Tepat! な = NA ,manabukana.aiml
+0,*,に,*,Belum tepat! Yang benar adalah: NI,manabukana.aiml
+0,NI,に,*,Tepat! に = NI ,manabukana.aiml
+0,*,ぬ,*,Belum tepat! Yang benar adalah: NU,manabukana.aiml
+0,NU,ぬ,*,Tepat! ぬ = NU ,manabukana.aiml
+0,*,ね,*,Belum tepat! Yang benar adalah: NE,manabukana.aiml
+0,NE,ね,*,Tepat! ね = NE ,manabukana.aiml
+0,*,の,*,Belum tepat! Yang benar adalah: NO,manabukana.aiml
+0,NO,の,*,Tepat! の = NO ,manabukana.aiml
+0,*,ま,*,Belum tepat! Yang benar adalah: MA,manabukana.aiml
+0,MA,ま,*,Tepat! ま = MA ,manabukana.aiml
+0,*,み,*,Belum tepat! Yang benar adalah: MI,manabukana.aiml
+0,MI,み,*,Tepat! み = MI ,manabukana.aiml
+0,*,む,*,Belum tepat! Yang benar adalah: MU,manabukana.aiml
+0,MU,む,*,Tepat! む = MU ,manabukana.aiml
+0,*,め,*,Belum tepat! Yang benar adalah: ME,manabukana.aiml
+0,ME,め,*,Tepat! め = ME ,manabukana.aiml
+0,*,も,*,Belum tepat! Yang benar adalah: MO,manabukana.aiml
+0,MO,も,*,Tepat! も = MO ,manabukana.aiml
+0,*,ら,*,Belum tepat! Yang benar adalah: RA,manabukana.aiml
+0,RA,ら,*,Tepat! ら = RA ,manabukana.aiml
+0,*,り,*,Belum tepat! Yang benar adalah: RI,manabukana.aiml
+0,RI,り,*,Tepat! り = RI ,manabukana.aiml
+0,*,る,*,Belum tepat! Yang benar adalah: RU,manabukana.aiml
+0,RU,る,*,Tepat! る = RU ,manabukana.aiml
+0,*,れ,*,Belum tepat! Yang benar adalah: RE,manabukana.aiml
+0,RE,れ,*,Tepat! れ = RE ,manabukana.aiml
+0,*,ろ,*,Belum tepat! Yang benar adalah: RO,manabukana.aiml
+0,RO,ろ,*,Tepat! ろ = RO ,manabukana.aiml
+0,*,や,*,Belum tepat! Yang benar adalah: YA,manabukana.aiml
+0,YA,や,*,Tepat! や = YA ,manabukana.aiml
+0,*,ゆ,*,Belum tepat! Yang benar adalah: YU,manabukana.aiml
+0,YU,ゆ,*,Tepat! ゆ = YU ,manabukana.aiml
+0,*,よ,*,Belum tepat! Yang benar adalah: YO,manabukana.aiml
+0,YO,よ,*,Tepat! よ = YO ,manabukana.aiml
+0,*,わ,*,Belum tepat! Yang benar adalah: WA,manabukana.aiml
+0,WA,わ,*,Tepat! わ = WA ,manabukana.aiml
+0,*,ん,*,Belum tepat! Yang benar adalah: N,manabukana.aiml
+0,N,ん,*,Tepat! ん = N ,manabukana.aiml
+0,*,が,*,Belum tepat! Yang benar adalah: GA,manabukana.aiml
+0,GA,が,*,Tepat! が = GA ,manabukana.aiml
+0,*,ぎ,*,Belum tepat! Yang benar adalah: GI,manabukana.aiml
+0,GI,ぎ,*,Tepat! ぎ = GI ,manabukana.aiml
+0,*,ぐ,*,Belum tepat! Yang benar adalah: GU,manabukana.aiml
+0,GU,ぐ,*,Tepat! ぐ = GU ,manabukana.aiml
+0,*,げ,*,Belum tepat! Yang benar adalah: GE,manabukana.aiml
+0,GE,げ,*,Tepat! げ = GE ,manabukana.aiml
+0,*,ご,*,Belum tepat! Yang benar adalah: GO,manabukana.aiml
+0,GO,ご,*,Tepat! ご = GO ,manabukana.aiml
+0,*,ざ,*,Belum tepat! Yang benar adalah: ZA,manabukana.aiml
+0,ZA,ざ,*,Tepat! ざ = ZA ,manabukana.aiml
+0,*,じ,*,Belum tepat! Yang benar adalah: JI,manabukana.aiml
+0,JI,じ,*,Tepat! じ = JI ,manabukana.aiml
+0,*,ず,*,Belum tepat! Yang benar adalah: ZU,manabukana.aiml
+0,ZU,ず,*,Tepat! ず = ZU ,manabukana.aiml
+0,*,ぜ,*,Belum tepat! Yang benar adalah: ZE,manabukana.aiml
+0,ZE,ぜ,*,Tepat! ぜ = ZE ,manabukana.aiml
+0,*,ぞ,*,Belum tepat! Yang benar adalah: ZO,manabukana.aiml
+0,ZO,ぞ,*,Tepat! ぞ = ZO ,manabukana.aiml
+0,*,だ,*,Belum tepat! Yang benar adalah: DA,manabukana.aiml
+0,DA,だ,*,Tepat! だ = DA ,manabukana.aiml
+0,*,ぢ,*,Belum tepat! Yang benar adalah: JI,manabukana.aiml
+0,JI,ぢ,*,Tepat! ぢ = JI ,manabukana.aiml
+0,*,づ,*,Belum tepat! Yang benar adalah: ZU,manabukana.aiml
+0,ZU,づ,*,Tepat! づ = ZU ,manabukana.aiml
+0,*,で,*,Belum tepat! Yang benar adalah: DE,manabukana.aiml
+0,DE,で,*,Tepat! で = DE ,manabukana.aiml
+0,*,ど,*,Belum tepat! Yang benar adalah: DO,manabukana.aiml
+0,DO,ど,*,Tepat! ど = DO ,manabukana.aiml
+0,*,ば,*,Belum tepat! Yang benar adalah: BA,manabukana.aiml
+0,BA,ば,*,Tepat! ば = BA ,manabukana.aiml
+0,*,び,*,Belum tepat! Yang benar adalah: BI,manabukana.aiml
+0,BI,び,*,Tepat! び = BI ,manabukana.aiml
+0,*,ぶ,*,Belum tepat! Yang benar adalah: BU,manabukana.aiml
+0,BU,ぶ,*,Tepat! ぶ = BU ,manabukana.aiml
+0,*,べ,*,Belum tepat! Yang benar adalah: BE,manabukana.aiml
+0,BE,べ,*,Tepat! べ = BE ,manabukana.aiml
+0,*,ぼ,*,Belum tepat! Yang benar adalah: BO,manabukana.aiml
+0,BO,ぼ,*,Tepat! ぼ = BO ,manabukana.aiml
+0,*,ぱ,*,Belum tepat! Yang benar adalah: PA,manabukana.aiml
+0,PA,ぱ,*,Tepat! ぱ = PA ,manabukana.aiml
+0,*,ぴ,*,Belum tepat! Yang benar adalah: PI,manabukana.aiml
+0,PI,ぴ,*,Tepat! ぴ = PI ,manabukana.aiml
+0,*,ぷ,*,Belum tepat! Yang benar adalah: PU,manabukana.aiml
+0,PU,ぷ,*,Tepat! ぷ = PU ,manabukana.aiml
+0,*,ぺ,*,Belum tepat! Yang benar adalah: PE,manabukana.aiml
+0,PE,ぺ,*,Tepat! ぺ = PE ,manabukana.aiml
+0,*,ぽ,*,Belum tepat! Yang benar adalah: PO,manabukana.aiml
+0,PO,ぽ,*,Tepat! ぽ = PO ,manabukana.aiml

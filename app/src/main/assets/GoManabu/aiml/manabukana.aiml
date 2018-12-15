@@ -27,6 +27,66 @@
             <li>つ</li>
             <li>て</li>
             <li>と</li>
+
+            <li>な</li>
+            <li>に</li>
+            <li>ぬ</li>
+            <li>ね</li>
+            <li>の</li>
+
+            <li>は</li>
+            <li>ひ</li>
+            <li>ふ</li>
+            <li>へ</li>
+            <li>ほ</li>
+
+            <li>ま</li>
+            <li>み</li>
+            <li>む</li>
+            <li>め</li>
+            <li>も</li>
+            
+            <li>ら</li>
+            <li>り</li>
+            <li>る</li>
+            <li>れ</li>
+            <li>ろ</li>
+
+            <li>や</li>
+            <li>ゆ</li>
+            <li>よ</li>
+            <li>わ</li>
+            <li>ん</li>
+
+            <li>が</li>
+            <li>ぎ</li>
+            <li>ぐ</li>
+            <li>げ</li>
+            <li>ご</li>
+
+            <li>ざ</li>
+            <li>じ</li>
+            <li>ず</li>
+            <li>ぜ</li>
+            <li>ぞ</li>
+
+            <li>だ</li>
+            <li>ぢ</li>
+            <li>づ</li>
+            <li>で</li>
+            <li>ど</li>
+
+            <li>ば</li>
+            <li>び</li>
+            <li>ぶ</li>
+            <li>べ</li>
+            <li>ぼ</li>
+
+            <li>ぱ</li>
+            <li>ぴ</li>
+            <li>ぷ</li>
+            <li>ぺ</li>
+            <li>ぽ</li>
          </random>
       </template>  
    </category>
@@ -256,4 +316,563 @@
       </category>
 
 <!-- NANINUNENO -->
+      <category>
+         <pattern> * </pattern>
+         <that>な</that>
+         <template> Belum tepat! Yang benar adalah: NA </template>
+      </category>
+      <category>
+         <pattern> NA </pattern>
+         <that>な</that>
+         <template> Tepat! な = NA </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>に</that>
+         <template> Belum tepat! Yang benar adalah: NI </template>
+      </category>
+      <category>
+         <pattern> NI </pattern>
+         <that>に</that>
+         <template> Tepat! に = NI </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ぬ</that>
+         <template> Belum tepat! Yang benar adalah: NU </template>
+      </category>
+      <category>
+         <pattern> NU </pattern>
+         <that>ぬ</that>
+         <template> Tepat! ぬ = NU </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ね</that>
+         <template> Belum tepat! Yang benar adalah: NE </template>
+      </category>
+      <category>
+         <pattern> NE </pattern>
+         <that>ね</that>
+         <template> Tepat! ね = NE </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>の</that>
+         <template> Belum tepat! Yang benar adalah: NO </template>
+      </category>
+      <category>
+         <pattern> NO </pattern>
+         <that>の</that>
+         <template> Tepat! の = NO </template>
+      </category>
+
+<!-- HAHIFUHEHO -->
+      <category>
+         <pattern> * </pattern>
+         <that>は</that>
+         <template> Belum tepat! Yang benar adalah: HA </template>
+      </category>
+      <category>
+         <pattern> HA </pattern>
+         <that>は</that>
+         <template> Tepat! は = HA </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ひ</that>
+         <template> Belum tepat! Yang benar adalah: HI </template>
+      </category>
+      <category>
+         <pattern> HI </pattern>
+         <that>ひ</that>
+         <template> Tepat! ひ = HI </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ふ</that>
+         <template> Belum tepat! Yang benar adalah: FU </template>
+      </category>
+      <category>
+         <pattern> FU </pattern>
+         <that>ふ</that>
+         <template> Tepat! ふ = FU </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>へ</that>
+         <template> Belum tepat! Yang benar adalah: HE </template>
+      </category>
+      <category>
+         <pattern> HE </pattern>
+         <that>へ</that>
+         <template> Tepat! へ = HE </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ほ</that>
+         <template> Belum tepat! Yang benar adalah: HO </template>
+      </category>
+      <category>
+         <pattern> HO </pattern>
+         <that>ほ</at>
+         <template> Tepat! ほ = HO </template>
+      </category>
+
+<!-- MAMIMUMEMO -->
+      <category>
+         <pattern> * </pattern>
+         <that>ま</that>
+         <template> Belum tepat! Yang benar adalah: MA </template>
+      </category>
+      <category>
+         <pattern> MA </pattern>
+         <that>ま</that>
+         <template> Tepat! ま = MA </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>み</that>
+         <template> Belum tepat! Yang benar adalah: MI </template>
+      </category>
+      <category>
+         <pattern> MI </pattern>
+         <that>み</that>
+         <template> Tepat! み = MI </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>む</that>
+         <template> Belum tepat! Yang benar adalah: MU </template>
+      </category>
+      <category>
+         <pattern> MU </pattern>
+         <that>む</that>
+         <template> Tepat! む = MU </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>め</that>
+         <template> Belum tepat! Yang benar adalah: ME </template>
+      </category>
+      <category>
+         <pattern> ME </pattern>
+         <that>め</that>
+         <template> Tepat! め = ME </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>も</that>
+         <template> Belum tepat! Yang benar adalah: MO </template>
+      </category>
+      <category>
+         <pattern> MO </pattern>
+         <that>も</at>
+         <template> Tepat! も = MO </template>
+      </category>
+
+<!-- RARIRURERO -->
+      <category>
+         <pattern> * </pattern>
+         <that>ら</that>
+         <template> Belum tepat! Yang benar adalah: RA </template>
+      </category>
+      <category>
+         <pattern> RA </pattern>
+         <that>ら</that>
+         <template> Tepat! ら = RA </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>り</that>
+         <template> Belum tepat! Yang benar adalah: RI </template>
+      </category>
+      <category>
+         <pattern> RI </pattern>
+         <that>り</that>
+         <template> Tepat! り = RI </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>る</that>
+         <template> Belum tepat! Yang benar adalah: RU </template>
+      </category>
+      <category>
+         <pattern> RU </pattern>
+         <that>る</that>
+         <template> Tepat! る = RU </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>れ</that>
+         <template> Belum tepat! Yang benar adalah: RE </template>
+      </category>
+      <category>
+         <pattern> RE </pattern>
+         <that>れ</that>
+         <template> Tepat! れ = RE </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ろ</that>
+         <template> Belum tepat! Yang benar adalah: RO </template>
+      </category>
+      <category>
+         <pattern> RO </pattern>
+         <that>ろ</at>
+         <template> Tepat! ろ = RO </template>
+      </category>
+
+<!-- YAYUYO WA N -->
+      <category>
+         <pattern> * </pattern>
+         <that>や</that>
+         <template> Belum tepat! Yang benar adalah: YA </template>
+      </category>
+      <category>
+         <pattern> YA </pattern>
+         <that>や</that>
+         <template> Tepat! や = YA </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ゆ</that>
+         <template> Belum tepat! Yang benar adalah: YU </template>
+      </category>
+      <category>
+         <pattern> YU </pattern>
+         <that>ゆ</that>
+         <template> Tepat! ゆ = YU </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>よ</that>
+         <template> Belum tepat! Yang benar adalah: YO </template>
+      </category>
+      <category>
+         <pattern> YO </pattern>
+         <that>よ</that>
+         <template> Tepat! よ = YO </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>わ</that>
+         <template> Belum tepat! Yang benar adalah: WA </template>
+      </category>
+      <category>
+         <pattern> WA </pattern>
+         <that>わ</that>
+         <template> Tepat! わ = WA </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ん</that>
+         <template> Belum tepat! Yang benar adalah: N </template>
+      </category>
+      <category>
+         <pattern> N </pattern>
+         <that>ん</at>
+         <template> Tepat! ん = N </template>
+      </category>
+
+<!-- GAGIGUGEGO -->
+      <category>
+         <pattern> * </pattern>
+         <that>が</that>
+         <template> Belum tepat! Yang benar adalah: GA </template>
+      </category>
+      <category>
+         <pattern> GA </pattern>
+         <that>が</that>
+         <template> Tepat! が = GA </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ぎ</that>
+         <template> Belum tepat! Yang benar adalah: GI </template>
+      </category>
+      <category>
+         <pattern> GI </pattern>
+         <that>ぎ</that>
+         <template> Tepat! ぎ = GI </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ぐ</that>
+         <template> Belum tepat! Yang benar adalah: GU </template>
+      </category>
+      <category>
+         <pattern> GU </pattern>
+         <that>ぐ</that>
+         <template> Tepat! ぐ = GU </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>げ</that>
+         <template> Belum tepat! Yang benar adalah: GE </template>
+      </category>
+      <category>
+         <pattern> GE </pattern>
+         <that>げ</that>
+         <template> Tepat! げ = GE </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ご</that>
+         <template> Belum tepat! Yang benar adalah: GO </template>
+      </category>
+      <category>
+         <pattern> GO </pattern>
+         <that>ご</at>
+         <template> Tepat! ご = GO </template>
+      </category>
+
+<!-- ZAJIZUZEZO -->
+      <category>
+         <pattern> * </pattern>
+         <that>ざ</that>
+         <template> Belum tepat! Yang benar adalah: ZA </template>
+      </category>
+      <category>
+         <pattern> ZA </pattern>
+         <that>ざ</that>
+         <template> Tepat! ざ = ZA </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>じ</that>
+         <template> Belum tepat! Yang benar adalah: JI </template>
+      </category>
+      <category>
+         <pattern> JI </pattern>
+         <that>じ</that>
+         <template> Tepat! じ = JI </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ず</that>
+         <template> Belum tepat! Yang benar adalah: ZU </template>
+      </category>
+      <category>
+         <pattern> ZU </pattern>
+         <that>ず</that>
+         <template> Tepat! ず = ZU </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ぜ</that>
+         <template> Belum tepat! Yang benar adalah: ZE </template>
+      </category>
+      <category>
+         <pattern> ZE </pattern>
+         <that>ぜ</that>
+         <template> Tepat! ぜ = ZE </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ぞ</that>
+         <template> Belum tepat! Yang benar adalah: ZO </template>
+      </category>
+      <category>
+         <pattern> ZO </pattern>
+         <that>ぞ</at>
+         <template> Tepat! ぞ = ZO </template>
+      </category>
+
+<!-- DAJIZUDEDO -->
+      <category>
+         <pattern> * </pattern>
+         <that>だ</that>
+         <template> Belum tepat! Yang benar adalah: DA </template>
+      </category>
+      <category>
+         <pattern> DA </pattern>
+         <that>だ</that>
+         <template> Tepat! だ = DA </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ぢ</that>
+         <template> Belum tepat! Yang benar adalah: JI </template>
+      </category>
+      <category>
+         <pattern> JI </pattern>
+         <that>ぢ</that>
+         <template> Tepat! ぢ = JI </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>づ</that>
+         <template> Belum tepat! Yang benar adalah: ZU </template>
+      </category>
+      <category>
+         <pattern> ZU </pattern>
+         <that>づ</that>
+         <template> Tepat! づ = ZU </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>で</that>
+         <template> Belum tepat! Yang benar adalah: DE </template>
+      </category>
+      <category>
+         <pattern> DE </pattern>
+         <that>で</that>
+         <template> Tepat! で = DE </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ど</that>
+         <template> Belum tepat! Yang benar adalah: DO </template>
+      </category>
+      <category>
+         <pattern> DO </pattern>
+         <that>ど</at>
+         <template> Tepat! ど = DO </template>
+      </category>
+      
+<!-- BABIBUBEBO -->
+      <category>
+         <pattern> * </pattern>
+         <that>ば</that>
+         <template> Belum tepat! Yang benar adalah: BA </template>
+      </category>
+      <category>
+         <pattern> BA </pattern>
+         <that>ば</that>
+         <template> Tepat! ば = BA </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>び</that>
+         <template> Belum tepat! Yang benar adalah: BI </template>
+      </category>
+      <category>
+         <pattern> BI </pattern>
+         <that>び</that>
+         <template> Tepat! び = BI </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ぶ</that>
+         <template> Belum tepat! Yang benar adalah: BU </template>
+      </category>
+      <category>
+         <pattern> BU </pattern>
+         <that>ぶ</that>
+         <template> Tepat! ぶ = BU </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>べ</that>
+         <template> Belum tepat! Yang benar adalah: BE </template>
+      </category>
+      <category>
+         <pattern> BE </pattern>
+         <that>べ</that>
+         <template> Tepat! べ = BE </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ぼ</that>
+         <template> Belum tepat! Yang benar adalah: BO </template>
+      </category>
+      <category>
+         <pattern> BO </pattern>
+         <that>ぼ</at>
+         <template> Tepat! ぼ = BO </template>
+      </category>
+
+<!-- PAPIPUPEPO -->
+      <category>
+         <pattern> * </pattern>
+         <that>ぱ</that>
+         <template> Belum tepat! Yang benar adalah: PA </template>
+      </category>
+      <category>
+         <pattern> PA </pattern>
+         <that>ぱ</that>
+         <template> Tepat! ぱ = PA </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ぴ</that>
+         <template> Belum tepat! Yang benar adalah: PI </template>
+      </category>
+      <category>
+         <pattern> PI </pattern>
+         <that>ぴ</that>
+         <template> Tepat! ぴ = PI </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>づ</that>
+         <template> Belum tepat! Yang benar adalah: PU </template>
+      </category>
+      <category>
+         <pattern> PU </pattern>
+         <that>づ</that>
+         <template> Tepat! づ = PU </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ぺ</that>
+         <template> Belum tepat! Yang benar adalah: PE </template>
+      </category>
+      <category>
+         <pattern> PE </pattern>
+         <that>ぺ</that>
+         <template> Tepat! ぺ = PE </template>
+      </category>
+
+      <category>
+         <pattern> * </pattern>
+         <that>ぽ</that>
+         <template> Belum tepat! Yang benar adalah: PO </template>
+      </category>
+      <category>
+         <pattern> PO </pattern>
+         <that>ぽ</at>
+         <template> Tepat! ぽ = PO </template>
+      </category>
+
 </aiml>
