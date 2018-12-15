@@ -16,4 +16,5 @@
     <string name="kanji">Kanji</string>
     <string name="help">Help</string>
     <string name="go_manabu">Go Manabu</string>
+    <string name="start_command">Start Command!</string>
 </resources>
