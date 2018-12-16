@@ -49,6 +49,16 @@
 0,NE,ね,*,Tepat! ね = NE ,manabukana.aiml
 0,*,の,*,Belum tepat! Yang benar adalah: NO,manabukana.aiml
 0,NO,の,*,Tepat! の = NO ,manabukana.aiml
+0,*,は,*,Belum tepat! Yang benar adalah: HA,manabukana.aiml
+0,HA,は,*,Tepat! は = HA ,manabukana.aiml
+0,*,ひ,*,Belum tepat! Yang benar adalah: HI,manabukana.aiml
+0,HI,ひ,*,Tepat! ひ = HI ,manabukana.aiml
+0,*,ふ,*,Belum tepat! Yang benar adalah: HU,manabukana.aiml
+0,HU,ふ,*,Tepat! ふ = HU ,manabukana.aiml
+0,*,へ,*,Belum tepat! Yang benar adalah: HE,manabukana.aiml
+0,HE,へ,*,Tepat! へ = HE ,manabukana.aiml
+0,*,ほ,*,Belum tepat! Yang benar adalah: HO,manabukana.aiml
+0,HO,ほ,*,Tepat! ほ = HO ,manabukana.aiml
 0,*,ま,*,Belum tepat! Yang benar adalah: MA,manabukana.aiml
 0,MA,ま,*,Tepat! ま = MA ,manabukana.aiml
 0,*,み,*,Belum tepat! Yang benar adalah: MI,manabukana.aiml
@@ -151,8 +161,8 @@
 0,KE,ケ,*,Tepat! ケ = KE ,manabukana.aiml
 0,*,コ,*,Belum tepat! Yang benar adalah: KO,manabukana.aiml
 0,KO,コ,*,Tepat! コ = KO ,manabukana.aiml
-0,*,さ,*,Belum tepat! Yang benar adalah: SA,manabukana.aiml
-0,SA,さ,*,Tepat! さ = SA ,manabukana.aiml
+0,*,サ,*,Belum tepat! Yang benar adalah: SA,manabukana.aiml
+0,SA,サ,*,Tepat! サ = SA ,manabukana.aiml
 0,*,シ,*,Belum tepat! Yang benar adalah: SHI,manabukana.aiml
 0,SHI,シ,*,Tepat! シ = SHI ,manabukana.aiml
 0,*,ス,*,Belum tepat! Yang benar adalah: SU,manabukana.aiml
@@ -181,6 +191,16 @@
 0,NE,ネ,*,Tepat! ネ = NE ,manabukana.aiml
 0,*,ノ,*,Belum tepat! Yang benar adalah: NO,manabukana.aiml
 0,NO,ノ,*,Tepat! ノ = NO ,manabukana.aiml
+0,*,ハ,*,Belum tepat! Yang benar adalah: HA,manabukana.aiml
+0,HA,ハ,*,Tepat! ハ = HA ,manabukana.aiml
+0,*,ヒ,*,Belum tepat! Yang benar adalah: HI,manabukana.aiml
+0,HI,ヒ,*,Tepat! ヒ = HI ,manabukana.aiml
+0,*,フ,*,Belum tepat! Yang benar adalah: HU,manabukana.aiml
+0,HU,フ,*,Tepat! フ = HU ,manabukana.aiml
+0,*,へ,*,Belum tepat! Yang benar adalah: HE,manabukana.aiml
+0,HE,へ,*,Tepat! へ = HE ,manabukana.aiml
+0,*,ホ,*,Belum tepat! Yang benar adalah: HO,manabukana.aiml
+0,HO,ホ,*,Tepat! ホ = HO ,manabukana.aiml
 0,*,マ,*,Belum tepat! Yang benar adalah: MA,manabukana.aiml
 0,MA,マ,*,Tepat! マ = MA ,manabukana.aiml
 0,*,モ,*,Belum tepat! Yang benar adalah: MI,manabukana.aiml
